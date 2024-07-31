@@ -1,0 +1,12 @@
+public class FindFirstOccurrenceInString {
+    public static int findFirstOccurrence(String str, String target) {
+        return str.indexOf(target); // Return the index of the first occurrence
+    }
+
+    public static void main(String[] args) {
+        String text = "hello world, hello Java";
+        String target = "hello";
+        int index = findFirstOccurrence(text, target);
+        System.out.println("The first occurrence of \"" + target + "\" is at index: " + index);
+    }
+}
